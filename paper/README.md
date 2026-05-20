@@ -1,3 +1,3 @@
-This folder contains the published Findings PDF used as the local audit reference for paper-2022-03.
+This folder contains the published Findings PDF for paper-2022-03.
 
-The PDF is retained locally for audit validation. It is ignored from the public GitHub upload unless redistribution rights are separately cleared; cite the DOI/publisher page in public documentation instead.
+The PDF states that it is distributed under the Creative Commons Attribution-ShareAlike 4.0 International License. It is included in the public GitHub repository under that license; cite the DOI/publisher page alongside the local PDF.

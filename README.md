@@ -20,7 +20,7 @@ Paper ID: `paper-2022-03`
 
 ## Contents
 
-- `paper/33040-in-search-of-lost-trams-comparing-1925-and-2020-transit-isochrones-in-sydney.pdf` - published paper reference copy.
+- `paper/33040-in-search-of-lost-trams-comparing-1925-and-2020-transit-isochrones-in-sydney.pdf` - published open-access paper PDF, included under CC BY-SA 4.0 as stated in the PDF.
 - `data/scenario_gtfs/` - curated GTFS scenario bundles for S1-S6, with byte-identical duplicates represented by pointer files.
 - `data/derived_results/All_PWA.csv` - scenario PWA/access result table used for the paper figure/table checks.
 - `metadata/SCENARIO_GTFS_MANIFEST.csv` - scenario file manifest, checksums, GTFS table presence, and row counts.
@@ -43,7 +43,7 @@ This package includes the paper-specific scenario GTFS bundles and derived PWA r
 
 ## Upload Mechanics
 
-The package is uploaded to GitHub at https://github.com/dlevinson/paper-2022-03-in-search-of-lost-trams-comparing-1925-and-2020-transit-isochrones-in-sydney. The 2020 GTFS zip is about 198 MB and is tracked with Git LFS. Local `paper/*.pdf` reference copies are retained on disk for audit convenience but ignored from the public GitHub tree unless redistribution rights are separately cleared.
+The package is uploaded to GitHub at https://github.com/dlevinson/paper-2022-03-in-search-of-lost-trams-comparing-1925-and-2020-transit-isochrones-in-sydney. The 2020 GTFS zip is about 198 MB and is tracked with Git LFS. The published Findings PDF is included because the PDF states that it is distributed under CC BY-SA 4.0.
 
 <!-- package-hardening-status:start -->
 ## Package Hardening Status
@@ -52,6 +52,6 @@ Generated: 2026-05-20 15:32:54 AEST
 
 - Pipeline: `UPLOADED`
 - Sidecars added/updated: `PACKAGE_STATUS.md`, `PACKAGE_MANIFEST.csv`, `LICENSE_STATUS.md`.
-- Paper reference copies are for local audit convenience and are not public-upload assets without rights review.
+- The published paper PDF is included because open-access redistribution rights were checked; other paper reference copies remain review-only unless separately cleared.
 - GitHub upload completed with LFS for the >100 MiB GTFS zip.
 <!-- package-hardening-status:end -->
