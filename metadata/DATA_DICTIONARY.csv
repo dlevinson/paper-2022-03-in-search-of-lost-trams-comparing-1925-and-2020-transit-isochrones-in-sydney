@@ -1,0 +1,5 @@
+relative_path,field,description,type,notes
+data/derived_results/All_PWA.csv,scenario,Scenario identifier S1-S6 as defined in the paper.,string,S1: 1925 trams/trains; S2: 2020 transit; S3: 1925 train only; S4: 2020 excluding buses; S5: 2020 excluding buses plus 1925 trams; S6: 2020 transit plus 1925 trams.
+data/derived_results/All_PWA.csv,time,Travel-time threshold in minutes.,integer,"Values are 10, 20, 30, 40, 50, and 60."
+data/derived_results/All_PWA.csv,PWA to jobs,Person-weighted access to jobs for the scenario and threshold.,integer,Derived paper result.
+data/derived_results/All_PWA.csv,PWA to pop,Person-weighted access to population for the scenario and threshold.,integer,Derived paper result.

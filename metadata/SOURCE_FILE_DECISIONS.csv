@@ -1,0 +1,6 @@
+path,role,decision,reason
+paper/33040-in-search-of-lost-trams-comparing-1925-and-2020-transit-isochrones-in-sydney.pdf,final_published_paper,keep,Published Findings article retained as local reference copy.
+data/scenario_gtfs/,paper_specific_scenario_gtfs,keep,Hydrated GTFS scenario bundles match the paper's six scenario setup; duplicate S3/S6 files are represented by pointers.
+data/derived_results/All_PWA.csv,paper_result_table,keep,Published scenario access/PWA result table; small derived output useful for checking Figure 3 and scenario comparisons.
+https://hdl.handle.net/2123/34748; https://doi.org/10.25910/07z3-bn41,shared_public_historical_gtfs,link_only,Shared historical Sydney GTFS data are already publicly archived and should not be duplicated wholesale in this package.
+documentation/paper_source_context and ARCHIVE_MANIFEST.csv,stale_audit_or_draft_context,remove,Stale workbench/audit sidecars are not paper/data/code package contents.

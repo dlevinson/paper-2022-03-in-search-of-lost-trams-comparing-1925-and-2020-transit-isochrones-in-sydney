@@ -1,0 +1,1 @@
+data/scenario_gtfs/S2_2020_transit/2020gtfs.zip filter=lfs diff=lfs merge=lfs -text
